@@ -3,35 +3,47 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.only</groupId>
-    <artifactId>only-net-handler</artifactId>
-    <version>0.0.1</version>
+    <artifactId>only-query-mybatis</artifactId>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
 
-    <name>only-net-handler</name>
-    <url>https://gitee.com/onlyxiahui/only-net-handler</url>
+    <name>only-query-mybatis</name>
+    <url>http://maven.apache.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <jdk.version>1.7</jdk.version>
+        <org.springframework.version>4.2.6.RELEASE</org.springframework.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>[4.12,)</version>
+            <version>4.12</version>
             <scope>test</scope>
         </dependency>
-        <!-- log -->
         <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>[1.6.1,]</version>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-orm</artifactId>
+            <version>${org.springframework.version}</version>
         </dependency>
+        <!-- mybatis start -->
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>3.3.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis-spring</artifactId>
+            <version>1.2.4</version>
+        </dependency>
+        <!-- mybatis end -->
+        
     </dependencies>
-	
     <build>
-        <finalName>only-net-handler</finalName>
+        <finalName>only-query-mybatis</finalName>
         <plugins>
 		
             <!-- clean插件 -->
@@ -190,8 +202,8 @@
         </developer>
     </developers>
     <scm>
-        <connection>scm:git@gitee.com:onlyxiahui/only-net-handler.git</connection>
-        <developerConnection>scm:git@gitee.com:onlyxiahui/only-net-handler.git</developerConnection>
-        <url>https://gitee.com/onlyxiahui/only-net-handler</url>
+        <connection>scm:git@gitee.com:onlyxiahui/only-query-mybatis.git</connection>
+        <developerConnection>scm:git@gitee.com:onlyxiahui/only-query-mybatis.git</developerConnection>
+        <url>https://gitee.com/onlyxiahui/only-query-mybatis</url>
     </scm>
 </project>

@@ -3,12 +3,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.only</groupId>
-    <artifactId>only-net-handler</artifactId>
+    <artifactId>only-net-session</artifactId>
     <version>0.0.1</version>
     <packaging>jar</packaging>
 
-    <name>only-net-handler</name>
-    <url>https://gitee.com/onlyxiahui/only-net-handler</url>
+    <name>only-net-session</name>
+    <url>https://gitee.com/onlyxiahui/only-net-session</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -31,7 +31,7 @@
     </dependencies>
 	
     <build>
-        <finalName>only-net-handler</finalName>
+        <finalName>only-net-session</finalName>
         <plugins>
 		
             <!-- clean插件 -->
@@ -190,8 +190,8 @@
         </developer>
     </developers>
     <scm>
-        <connection>scm:git@gitee.com:onlyxiahui/only-net-handler.git</connection>
-        <developerConnection>scm:git@gitee.com:onlyxiahui/only-net-handler.git</developerConnection>
-        <url>https://gitee.com/onlyxiahui/only-net-handler</url>
+        <connection>scm:https://gitee.com/onlylibrary/only-net-session.git</connection>
+        <developerConnection>scm:https://gitee.com/onlylibrary/only-net-session.git</developerConnection>
+        <url>https://gitee.com/onlylibrary/only-net-session</url>
     </scm>
 </project>
