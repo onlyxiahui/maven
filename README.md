@@ -6,7 +6,7 @@ pom.xml:
 ```xml
     <repositories>
         <repository>
-            <id>com.only</id>
+            <id>com.onlyxiahui</id>
             <url>https://raw.githubusercontent.com/onlyxiahui/maven/master/repository</url>
         </repository>
     </repositories>
