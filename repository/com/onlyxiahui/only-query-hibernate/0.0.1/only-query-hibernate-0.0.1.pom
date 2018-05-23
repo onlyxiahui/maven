@@ -188,7 +188,7 @@
         <repository>
             <id>releases</id>
             <name>public</name>
-            <url>file:E:/Workspaces/Release/maven/repository</url>
+            <url>file:../../maven/repository</url>
             <!-- <url>http://10.200.11.21:8081/nexus/content/repositories/releases/</url> -->
         </repository>
         <!-- 快照版本 -->

@@ -13,7 +13,7 @@
     <properties>
         <!-- 属性定义 -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <jdk.version>1.8</jdk.version>
+        <jdk.version>1.7</jdk.version>
         <!-- 主要依赖库的版本定义 -->
         <org.springframework.version>4.2.6.RELEASE</org.springframework.version>
     </properties>
@@ -140,10 +140,11 @@
                         <goals>
                             <goal>jar</goal>
                         </goals>
-                        <!-- 关掉JDK1.8的变态检查 -->
+                        <!-- 关掉JDK1.8的变态检查
                         <configuration>  
                             <additionalparam>-Xdoclint:none</additionalparam>  
                         </configuration>
+                         -->
                     </execution>
                 </executions>
             </plugin>
@@ -212,7 +213,7 @@
         <repository>
             <id>releases</id>
             <name>public</name>
-            <url>file:E:/Workspaces/Release/maven/repository</url>
+            <url>file:../../maven/repository</url>
             <!-- <url>http://10.200.11.21:8081/nexus/content/repositories/releases/</url> -->
         </repository>
         <!-- 快照版本 -->
